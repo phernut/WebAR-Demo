@@ -1975,13 +1975,13 @@ var tempI64;
 // === Body ===
 
 var ASM_CONSTS = {
-  3021140: function() {Module['emscripten_get_now_backup'] = performance.now;},  
- 3021195: function($0) {performance.now = function() { return $0; };},  
- 3021243: function($0) {performance.now = function() { return $0; };},  
- 3021291: function() {performance.now = Module['emscripten_get_now_backup'];},  
- 3021346: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
- 3021407: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
- 3021471: function() {return Module.webglContextAttributes.powerPreference;}
+  3021364: function() {Module['emscripten_get_now_backup'] = performance.now;},  
+ 3021419: function($0) {performance.now = function() { return $0; };},  
+ 3021467: function($0) {performance.now = function() { return $0; };},  
+ 3021515: function() {performance.now = Module['emscripten_get_now_backup'];},  
+ 3021570: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
+ 3021631: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
+ 3021695: function() {return Module.webglContextAttributes.powerPreference;}
 };
 function zappar_issue_js_plugin_face_mesh_normals(o){ return window.zappar_native_callbacks.face_mesh_normals(o); }
 function zappar_issue_js_plugin_face_mesh_normals_size(o){ return window.zappar_native_callbacks.face_mesh_normals_size(o); }
