@@ -139,9 +139,9 @@
         const buildUrl = "Build";
         const loaderUrl = buildUrl + "/Build-WebGL.loader.js";
         const config = {
-            dataUrl: buildUrl + "/Build-WebGL.data",
-            frameworkUrl: buildUrl + "/Build-WebGL.framework.js",
-            codeUrl: buildUrl + "/Build-WebGL.wasm",
+            dataUrl: buildUrl + "/516c1f430d2ec3fb6ddc7bb3287a065c.data.unityweb",
+            frameworkUrl: buildUrl + "/8e5ad3780eae68491d54cc1dde5eb59d.js.unityweb",
+            codeUrl: buildUrl + "/a1dce9d9e073f12e70f22855bafd295d.wasm.unityweb",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "ZapWorks-WebAR-Test",
@@ -150,8 +150,8 @@
             cacheControl: function (url) {
             // typically includes: .data, .bundle, .zpt
             if (url.match(/\.data/) || url.match(/\.bundle/) || url.match(/\.zpt/)) {
-             return "must-revalidate";
-            }
+             return "immutable";
+}
    
             if (url.match(/\.mp4/) || url.match(/\.custom/) || url.match(/\.zbin/)) {
                 return "immutable";
